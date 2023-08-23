@@ -1,5 +1,7 @@
 @echo off
-start /d "C:\Users\Administrator\Desktop\Learn_evironment" StudySetting.exe
-cd C:\Users\Administrator\Desktop\Learn_evironment\%date%
+cd C:\Users\test\Desktop\Learn_environment\steady_study
+mkdir %date%
+cd C:\Users\test\Desktop\Learn_environment\steady_study\%date%
 timeout 1
+echo.>> input.txt
 code .
